@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Chapter06 from './Chapter06';
+import Greeting from './Chapter07/Greeting';
+import LoginControl from './Chapter07/LoginControl';
 
 
 /* function tick() {
@@ -34,7 +36,7 @@ setInterval(tick, 1000); */
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LoginControl />
   </React.StrictMode>,
   document.getElementById('root')
 );
